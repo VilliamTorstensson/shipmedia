@@ -9,7 +9,7 @@ export default function MyWork() {
       <h1 className='px-4 text-3xl md:text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-b from-white to-gray-400 upper mb-20 text-center'>Latest Work And Projects.</h1>
     </div>
     <div className='absolute w-full bg-gradient-to-b from-transparent to-black/50 lg:flex hidden'></div>
-    <div className=' grid grid-cols-2 sm:grid-cols-2 gap-5 md:grid-cols-3 '>
+    <div className=' grid grid-cols-2 sm:grid-cols-2 sm:gap-5 gap-2 md:grid-cols-3 '>
       
       <div className=' w-full h-full md:order-1 order-1'>
         <Image width={500} height={400} src="/coffee.jpg" />

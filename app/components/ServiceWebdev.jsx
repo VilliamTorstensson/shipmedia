@@ -1,8 +1,5 @@
 import Link from 'next/link'
-import Image from 'next/image'
-import { RiSecurePaymentLine } from 'react-icons/ri'
-import { SiSpeedypage } from 'react-icons/si'
-import { FiUserCheck } from 'react-icons/fi'
+
 export default function ServiceWebdev() {
   return (
     <section id="websection" className="w-full h-full py-20 bg-gradient-to-b from-black  via-[#151517]/50 to-black border-t border-[#2c2c2c]">
@@ -26,7 +23,7 @@ export default function ServiceWebdev() {
          <div className='flex flex-col gap-4 '>
           <div id="GoogleSeo" className='flex gap-4'>
           <h1 className='text-3xl font-bold'>Google SEO</h1>
-          <Image src="/google2.svg" width={30} height={30} alt="google" />
+         
           </div>
             <p>I will boost your Google SEO through web development by optimizing site speed, ensuring mobile-friendliness, implementing structured data, creating SEO-friendly URLs, optimizing images, and enhancing website security. These improvements can lead to better search rankings and user experience.
             </p>
