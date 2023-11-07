@@ -20,8 +20,8 @@ export default function Hero () {
           </div>
         
         </div>
-        <div className='w-full h-full flex-col gap-10 flex justify-center items-center'>
-            <h1 className='z-20 text-white text-3xl xs:text-4xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold  capitalize text-center '>
+        <div className='w-full h-full flex-col gap-4 sm:gap-10 flex justify-center items-center'>
+            <h1 className='z-20 text-white text-2xl xs:text-4xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold  capitalize text-center '>
               Building digital products,<br /> brands, and experiences.
             </h1>
             <p className='text-center z-20 lg:w-[60%] mx-auto'><span className='text-white z-20'>I deliver fast and user-friendly Websites.</span> An online presence is a powerful tool for your business, driving increased sales and revenue. It enables you to tap into a global market and sell products or services 24/7.</p>
