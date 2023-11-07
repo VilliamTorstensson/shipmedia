@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@400;700&display=swap');
+
+
+  
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+@layer components {
+  .btn {
+    @apply px-3 py-1 text-white font-semibold bg-gradient-to-r from-gray-700 via-gray-800 to-gray-800 rounded-xl hover:bg-gradient-to-r hover:from-gray-500 hover:via-gray-600 hover:to-gray-700 duration-500;
+  }
+ 
+  .btn2 {
+    @apply px-4 rounded-full  py-1 bg-gray-100 text-black font-semibold hover:bg-gray-300 ;
+  }
+  .btn3 {
+    @apply px-4 py-2 bg-gray-100 text-black font-semibold hover:bg-gray-300 rounded-md border-none ;
+  }
+  .btn4 {
+    @apply px-4 py-2 bg-[#090909] border-[0.5px] border-gray-500 text-white font-semibold hover:bg-[#323232] rounded-md ;
+  }
+  p {
+    @apply text-gray-400
+  }
+  .card {
+    @apply bg-[#090909] rounded-xl border hover:bg-gradient-to-b from-[#090909] to-[#151517] border-gray-800 p-2 cursor-pointer;
+  }
+  .btn0 {
+    @apply bg-gradient-to-r text-white from-pink-500 via-red-500 to-yellow-500 px-4 py-1 rounded-full font-semibold hover:from-pink-400 hover:via-red-400 hover:to-yellow-400 duration-1000 ease-in-out;
+  } 
+  .priceCards {
+    @apply rounded-xl shadow-xl p-4
+  }
+  .card2 {
+    @apply bg-gradient-to-b from-[#202024] to-[#151517] rounded-xl shadow-2xl shadow-black
+  }
+  .btn5 {
+   @apply px-6 py-3 hover:bg-[#151517] bg-[#202024] text-white font-bold rounded-md shadow-md shadow-black duration-500 ease-in-out
+  }
+ 
+}
