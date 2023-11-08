@@ -26,7 +26,7 @@ export default function Steps () {
     <section className="py-10 sm:py-20 w-full h-full max-w-[1340px] mx-auto">
      
       <div className="px-4 w-full sm:px-10 flex flex-col items-center h-full">
-        <div className="gap-6 flex flex-col items-center justify-center">
+        <div className="gap-6 flex flex-col items-center justify-center w-full">
           <h3 className="text-gray-200 uppercase font-bold text-xl">The process</h3>
           <h1 className="text-center  md:text-8xl text-5xl sm:text-6xl text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-400
            font-extrabold">Your website <br />in 4 steps</h1>    
