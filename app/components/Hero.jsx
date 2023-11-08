@@ -24,7 +24,7 @@ export default function Hero () {
             <h1 className='z-20 text-white text-[1.6rem] sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black  capitalize text-center leading-8 '>
               Building digital products,<br /> brands, and experiences.
             </h1>
-            <p className='text-center z-20 lg:w-[60%] mx-auto'><span className='text-white z-20'>I deliver fast and user-friendly Websites.</span> An online presence is a powerful tool for your business, driving increased sales and revenue. It enables you to tap into a global market and sell products or services 24/7.</p>
+            <p className='text-center z-20 lg:w-[60%] mx-auto'><span className='text-white z-20'>I deliver fast and user-friendly Websites.</span> A good online presence is a powerful tool for your business, driving increased sales and revenue.</p>
            
             <Link href='/Contact' className="blur-none z-20 bg-gradient-to-r from-blue-500 via-sky-500 to-blue-500 btn5 rounded-full hover:from-blue-600 hover:via-sky-700 hover:to-blue-700">Get started</Link>
             
