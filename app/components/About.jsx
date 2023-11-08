@@ -5,13 +5,13 @@ import { BiLogoMeta } from 'react-icons/bi'
 import { FaFigma, FaShopify } from 'react-icons/fa'
 export default function About() {
   return (
-    <section id="about" className="bg-gradient-to-b from-black to-[#151517] w-full h-full sm:py-40 py-10 sm:px-10 px-4">
+    <section id="about" className="bg-gradient-to-b from-black to-[#151517] w-full h-full sm:py-40 py-20 sm:px-10 px-4">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center max-w-[1340px] mx-auto">
          {/*left container */}
 
         <div className='grid md:grid-cols-[1fr_2fr] items-start grid-cols-1 gap-10'>
         <div className='flex w-full justify-center'>
-          <Image alt="Me" src="/jag.jpeg" className=' rounded-full border-gray-100 border-2 ' width={200} height={200}/>
+          <Image alt="Me" src="/jag.jpeg" className=' rounded-full border-gray-100 border-2 ' width={180} height={180}/>
         </div>
        
         <div className='flex flex-col gap-5 justify-center md:items-start items-center h-full'>

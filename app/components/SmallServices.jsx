@@ -19,13 +19,13 @@ const toOpen2 = () => {
   return (
     <section className="w-full h-full pb-40 pt-20 bg-[#151517] mx-auto">
       {/**Grid layout */}
-      <div className=" max-w-[1340px] mx-auto px-4 sm:px-10 flex justify-center items-center flex-col w-full gap-10">
+      <div className=" max-w-[1340px] mx-auto px-4 sm:px-10 flex justify-center items-center flex-col w-full gap-4 sm:gap-10">
         <div className='flex flex-col item-center justify-center text-center'>
         <h1 className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-white to-gray-300">Smaller Solutions</h1>
         <p className="mt-2">logo design, ad-creatives, marketing strategy, </p>
         </div>
         
-        <div className="flex flex-col md:flex-row gap-10 mt-10 w-full h-full justify-center">
+        <div className="flex flex-col md:flex-row gap-4 sm:gap-10 mt-10 w-full h-full justify-center">
           <div onClick={toOpen} className="card2 cursor-pointer w-full flex flex-col p-4 items-start gap-4  justify-center h-min">
             <div className='flex items-center gap-4 text-2xl'>
             <PiPencilCircleDuotone className="text-4xl text-amber-800 inline-block" />
@@ -90,7 +90,7 @@ const toOpen2 = () => {
         </div>
 
                       {/**Lower grid */}
-        <div className='flex flex-col gap-5 items-start p-4 w-full card2'>
+        <div className='flex flex-col  items-start p-4 w-full card2'>
             {/**third card */}
           
             <div className='flex gap-4 items-center'>

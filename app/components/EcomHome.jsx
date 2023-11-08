@@ -13,7 +13,7 @@ export default function EcomHome() {
               </div>
               </div>
               
-            <div className="grid grid-cols-1 md:grid-cols-3 w-full gap-10 sm:gap-5 md:gap-5 lg:gap-10">
+            <div className="grid grid-cols-1 md:grid-cols-3 w-full gap-5 ">
 
               {/**Shopify */}
               <Link href="/Pricing#ShopifySection">

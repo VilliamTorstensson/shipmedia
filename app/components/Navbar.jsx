@@ -25,10 +25,10 @@ export default function Navbar() {
         </ul>
 
         <ul className='hidden md:flex justify-center gap-10'>
-          <li><Link className=' text-gray-500 hover:text-white duration-[300ms]' href="/">Home</Link></li>
-          <li><Link className=' text-gray-500 hover:text-white duration-[300ms]' href="/Pricing">Pricing</Link></li>
-          <li><Link className=' text-gray-500 hover:text-white duration-[300ms]' href="/Services">Services</Link></li>
-          <li><Link className=' text-gray-500 hover:text-white duration-[300ms]' href="/Contact">Contact</Link></li>
+          <li><Link className=' text-gray-300 hover:text-white duration-[300ms]' href="/">Home</Link></li>
+          <li><Link className=' text-gray-300 hover:text-white duration-[300ms]' href="/Pricing">Pricing</Link></li>
+          <li><Link className=' text-gray-300 hover:text-white duration-[300ms]' href="/Services">Services</Link></li>
+          <li><Link className=' text-gray-300 hover:text-white duration-[300ms]' href="/Contact">Contact</Link></li>
         </ul>
 
         <div className='flex'>
