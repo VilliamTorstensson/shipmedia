@@ -12,22 +12,22 @@ export default function MyWork() {
     <div className=' grid grid-cols-2 sm:grid-cols-2 sm:gap-5 gap-2 md:grid-cols-3 '>
       
       <div className=' w-full h-full md:order-1 order-1'>
-        <Image width={500} height={400} src="/coffee.jpg" alt="coffee" />
+        <Image width={500} height={400} src="/shortcoffee.jpg" alt="coffee" />
       </div>
       <div className=' w-full h-full md:order-1 order-2'>
-        <Image width={500} height={400} src="/NIKE.jpg" alt="nike" />
+        <Image width={500} height={400} src="/shortnike.jpg" alt="nike" />
       </div>
       <div className=' w-full h-full md:order-1 order-4'>
-        <Image width={500} height={400} src="/greenland.jpg" alt="greenland" />
+        <Image width={500} height={400} src="/shortgreenland.jpg" alt="greenland" />
       </div>
       <div className=' w-full h-full md:order-1 order-3'>
-        <Image width={500} height={400} src="/wildlife.jpg" alt="wildlife" />
+        <Image width={500} height={400} src="/shortwildlife.jpg" alt="wildlife" />
       </div>
       <div className=' w-full h-full md:order-1 order-5'>
-        <Image width={500} height={400} src="/vr.jpg" alt="vr" />
+        <Image width={500} height={400} src="/shortvr.jpg" alt="vr" />
       </div>
       <div className=' w-full h-full md:order-1 order-6'>
-        <Image width={500} height={400} src="/steak.svg" alt="steak" />
+        <Image width={500} height={400} src="/shortsteak.jpg" alt="steak" />
       </div>
     
     </div>
