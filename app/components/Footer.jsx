@@ -65,10 +65,10 @@ export default function Footer() {
               </div>
               <h1 className='font-bold text-lg uppercase mt-5'>Socials.</h1>
               <div className='flex w-full justify-start gap-10 text-2xl'>
-                <Link className='bg-[#323232] hover:bg-[#252525] p-2 rounded-full' href="https://www.facebook.com/"><AiOutlineInstagram /></Link>
-                <Link className='bg-[#323232] hover:bg-[#252525] p-2  rounded-full' href="https://www.facebook.com/"><AiOutlineFacebook /></Link>
-                <Link className='bg-[#323232] hover:bg-[#252525] p-2  rounded-full' href="https://www.facebook.com/"><AiOutlineLinkedin /></Link>
-                <Link className='bg-[#323232] hover:bg-[#252525] p-2  rounded-full' href="https://www.facebook.com/"><AiOutlineGithub /></Link>
+                <Link className='bg-[#323232] hover:bg-[#252525] p-2 rounded-full' href="https://instagram.com/villiamtorstensson"><AiOutlineInstagram /></Link>
+                <Link className='bg-[#323232] hover:bg-[#252525] p-2  rounded-full' href="https://facebook.com/villiamtorstensson"><AiOutlineFacebook /></Link>
+                <Link className='bg-[#323232] hover:bg-[#252525] p-2  rounded-full' href="https://www.linkedin.com/in/villiam-torstensson-47a0b625a/?originalSubdomain=se"><AiOutlineLinkedin /></Link>
+                <Link className='bg-[#323232] hover:bg-[#252525] p-2  rounded-full' href="https://github.com/VilliamTorstensson"><AiOutlineGithub /></Link>
                   
                
               </div>
