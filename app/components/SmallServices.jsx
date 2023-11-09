@@ -90,7 +90,7 @@ const toOpen2 = () => {
         </div>
 
                       {/**Lower grid */}
-        <div className='flex flex-col  items-start p-4 w-full card2'>
+        <div className='flex flex-col gap-5 items-start p-4 w-full card2'>
             {/**third card */}
           
             <div className='flex gap-4 items-center'>

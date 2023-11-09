@@ -21,7 +21,7 @@ export default function Hero () {
         
         </div>
         <div className='w-full h-full flex-col gap-5 sm:gap-10 flex justify-center items-center'>
-            <h1 className='z-20 text-white text-[1.6rem] sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black  capitalize text-center leading-8 '>
+            <h1 className='z-20 text-white text-[1.6rem] sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black  capitalize text-center leading-8'>
               Building digital products,<br /> brands, and experiences.
             </h1>
             <p className='text-center z-20 lg:w-[60%] mx-auto'><span className='text-white z-20'>I deliver fast and user-friendly Websites.</span> A good online presence is a powerful tool for your business, driving increased sales and revenue.</p>
