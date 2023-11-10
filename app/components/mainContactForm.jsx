@@ -2,15 +2,18 @@
 
 import Image from 'next/image'
 import { useState } from 'react'
+import { set } from 'react-hook-form';
 import { AiOutlineMail, AiOutlinePhone } from 'react-icons/ai';
 
 
 
 export default function MainContactForm() {
-
-  async function handleSubmit(event) {
+  const [isSent, setIsSent] = useState(false);
+  async function handleSubmit (event) {
     event.preventDefault();
     const formData = new FormData(event.target);
+    setIsSent(true);
+
 
     formData.append("access_key", "8776dfa5-408a-4f96-b776-48707e87e0a9");
 
@@ -41,14 +44,14 @@ export default function MainContactForm() {
         <div className='flex-col card2 border-[#323232] hover:border-[#323232] h-full w-full flex justify-center items-center pt-6 p-4 sm:p-10'>
          
               <Image alt="Me.image" src="/jag.jpeg" className='border-2 rounded-full' width={100} height={100} />
-              {isSent2 ? (
+              {isSent ? (
                 '' ) : (
               <div>
               <h1 className='text-4xl font-extrabold mt-5 text-center capitalize'>Get in touch <br className='flex md:hidden' /> with me</h1>
               <p className='mt-5 mb-10 sm:w-[70%] mx-auto text-center'>I'm glad you consider reaching out to me. Let's create something great together</p>
               </div>
               )}
-        {isSent2 ? (
+        {isSent ? (
           <div className='flex-col gap-5 flex h-full w-full justify-center items-center text-center'>
               <h1 className='text-2xl font-bold text-blue-400 pt-10 capitalize'>Thank's for reaching out!</h1>
               <p>I will get back to you as soon as possible.</p>
