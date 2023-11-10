@@ -4,7 +4,7 @@ import About from './components/About'
 import EcomHome from './components/EcomHome'
 import MyWork from './components/MyWork'
 import Steps from './components/Steps'
-import MainContactForm from './components/mainContactForm'
+import ContactHome from './components/contactHome'
 export default function Home() {
   return (
 
@@ -17,9 +17,7 @@ export default function Home() {
     <EcomHome />
     <MyWork />
     <Steps />
-    <div className='py-20'>
-    <MainContactForm />
-    </div>
+  <ContactHome />
     
    </main>
       

@@ -23,8 +23,8 @@ export default function ContactPage() {
         
         </div>
         {/**auppgifter */}
-        <div className=' w-full flex flex-col gap-5 h-full max-w-[1340px] mx-auto sm:px-10 px-4 py-20'>
-            <h1 className='font-bold text-4xl mt-20'>Details.</h1>
+        <div className=' w-full flex flex-col gap-5 h-full max-w-[1340px] mx-auto sm:px-10 px-4 '>
+            <h1 className='font-bold text-4xl '>Details.</h1>
             <div className='flex gap-2'>
               <h1>Adress:</h1>
               <p>Idrottsgatan 17 59350 Västervik Sweden.</p>
