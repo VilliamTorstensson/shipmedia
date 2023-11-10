@@ -9,6 +9,7 @@ export default function ContactPage() {
   return (
     <section className='md:px-10 mt-[100px] px-2'>
       <div>
+      
       <MainContactForm />
       </div>
   
