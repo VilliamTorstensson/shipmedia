@@ -7,8 +7,8 @@ export default function ContactPage() {
 
 
   return (
-    <section className='md:px-10 mt-[100px] px-2'>
-      <div>
+    <section className='  px-2'>
+      <div className='sm:px-10 px-4 mt-[60px] bg-gradient-to-b from-black via-[#151517] to-black py-20'>
       
       <MainContactForm />
       </div>
@@ -17,7 +17,7 @@ export default function ContactPage() {
      
     
      {/**FAQ */}
-         <div className='w-full max-w-[1340px] mx-auto pt-10'>
+         <div className='w-full max-w-[1340px] mx-auto py-20 px-4 sm:px.10'>
          <Faq />
          
         
