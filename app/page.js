@@ -4,7 +4,7 @@ import About from './components/About'
 import EcomHome from './components/EcomHome'
 import MyWork from './components/MyWork'
 import Steps from './components/Steps'
-import MainContactForm from './components/MainContactForm'
+import MainContactForm from './components/mainContactForm'
 export default function Home() {
   return (
 
