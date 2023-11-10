@@ -22,7 +22,7 @@ export default function Ecommerce() {
           <div className="flex flex-col gap-4 ">
             <h1 className="t">Includes:</h1>
             <li className=" text-gray-300">
-              1-30 days days delivery
+              1-30 days delivery
             </li>
             <li className="text-gray-300">
               Design set-up in Figma
@@ -53,7 +53,7 @@ export default function Ecommerce() {
          <div className="flex flex-col gap-4 ">
            <h1 className="t">Includes:</h1>
            <li className=" text-gray-300">
-             1-30 days days delivery
+             1-30 days delivery
            </li>
            <li className="text-gray-300">
              Design set-up in Figma

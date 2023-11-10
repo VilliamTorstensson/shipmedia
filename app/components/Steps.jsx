@@ -111,12 +111,7 @@ export default function Steps () {
             )}
           </div>
         </div>
-     <div className='flex w-full h-full justify-center items-center'>
-      
-        <Link href="/Contact" className="mt-10 btn4 px-6 py-3  text-xl">Contact</Link>
-     
-      
-     </div>
+   
       
       </div>
     </section>

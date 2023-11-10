@@ -28,7 +28,7 @@ export default function PriceCards() {
             <li className="text-gray-300">1-5 days delivery</li>
             <li className="text-gray-300">Figma design set-up</li>
             <li className="text-gray-300">Store strategy</li>
-            <li className="text-gray-300">Full cusomization</li>
+            <li className="text-gray-300">Full customization</li>
             <li className="text-gray-300">Fast and responsive</li>
             <li className="text-gray-300">User friendly</li>
             <h1 className="mt-4 text-center text-orange-400">Perfect for small businesses!</h1>
@@ -52,7 +52,7 @@ export default function PriceCards() {
             <li className="text-gray-300">1-2 Weeks delivery</li>
             <li className="text-gray-300">Multiple Figma demos</li>
             <li className="text-gray-300">Marketing strategy</li>
-            <li className="text-gray-300">Full cusomization</li>
+            <li className="text-gray-300">Full customization</li>
             <li className="text-gray-300">Fast and responsive</li>
             <li className="text-gray-300">User friendly</li>
             <li className="text-gray-300">Sales funnel</li>

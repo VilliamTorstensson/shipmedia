@@ -7,7 +7,7 @@ export default function ContactPage() {
 
 
   return (
-    <section className='  px-2'>
+    <section className=''>
       <div className='sm:px-10 px-4 mt-[60px] bg-gradient-to-b from-black via-[#151517] to-black py-20'>
       
       <MainContactForm />
