@@ -27,8 +27,7 @@ export default function Steps () {
      
       <div className="px-4 w-full sm:px-10 flex flex-col items-center h-full">
         <div className="gap-6 flex flex-col items-center justify-center w-full">
-          <h3 className="text-gray-200 capitalize font-bold text-xl">The process</h3>
-          <h1 className="text-center  md:text-8xl text-5xl sm:text-6xl text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-400
+          <h1 className="text-center md:text-8xl text-5xl sm:text-6xl text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-400
            font-extrabold">Your website <br />in 4 steps</h1>    
           <p className="text-center text-gray-200 text-lg sm:text-xl">Our process ensures that we create a website <br className=' hidden sm:flex'/> tailored to your business needs.</p>    
           <BiSolidDownArrow  className='my-4 text-6xl text-gray-200 '/>  
