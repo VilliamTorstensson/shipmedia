@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function ServiceWebdev() {
   return (
-    <section id="websection" className="w-full h-full py-20 bg-gradient-to-b from-black  via-[#151517]/50 to-black border-t border-[#2c2c2c]">
+    <section id="websection" className="w-full h-full py-20 bg-gradient-to-b from-black  via-[#151517] to-black border-t border-[#2c2c2c]">
       <div className="px-4 sm:px-10 mx-auto max-w-[1340px] grid grid-cols-1 lg:grid-cols-2 gap-20">
           <div className=" flex flex-col">
         

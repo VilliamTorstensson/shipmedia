@@ -27,7 +27,7 @@ export default function contactHome () {
 
     return (
       <section className='max-w-[1340px] mx-auto px-2 py-20 sm:px-10  w-full'>
-        <div className='flex-col border rounded-xl border-[#323232] hover:border-[#323232] h-full w-full flex justify-center items-center pt-6 p-4 sm:p-10'>
+        <div className='flex-col border rounded-xl border-[#323232] hover:border-[#323232] h-full w-full flex justify-center items-center pt-6 p-4 sm:p-10 bg-gradient-to-r from-[#090909] to-[#151517] '>
          
               <Image alt="Me.image" src="/jag.jpeg" className='border-2 rounded-full' width={100} height={100} />
              

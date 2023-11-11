@@ -23,9 +23,9 @@ export default function Steps () {
     setIsopen4(!isopen4)
   }
   return (
-    <section className="py-10 sm:py-20 w-full h-full max-w-[1340px] mx-auto">
+    <section className="py-10 sm:py-20 w-full h-full bg-gradient-to-b from-black via-[#151517] to-black">
      
-      <div className="px-4 w-full sm:px-10 flex flex-col items-center h-full">
+      <div className="max-w-[1340px] mx-auto px-4 w-full sm:px-10 flex flex-col items-center h-full">
         <div className="gap-6 flex flex-col items-center justify-center w-full">
           <h1 className="text-center md:text-8xl text-5xl sm:text-6xl text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-400
            font-extrabold">Your website <br />in 4 steps</h1>    
