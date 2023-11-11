@@ -47,7 +47,7 @@ export default function Footer() {
                 <input className='text-black font-regular placeholder-[#323232] py-1 px-[10px] bg-[#F2F2F2] rounded-l border-none w-full max-w-[300px]' 
               type="email"
               placeholder="Email"
-              id="email"
+              id="email2"
               value={email}
               onChange={handleChange}
               required

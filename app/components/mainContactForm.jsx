@@ -43,10 +43,11 @@ export default function MainContactForm() {
                 <label htmlFor="email" className='font-bold text-xl'>
         Email
       </label>
-      <input className='w-full bg-[#222226] shadow-inner shadow-black px-3 py-2 rounded-md border border-[#323232]'
+      <input className='w-full bg-[#222226] shadow-inner shadow-black px-3 py-2 rounded-md border border-[#323232] placeholder-[#222226]'
         id="email"
         type="email" 
-        name="email"
+        name="Email"
+        placeholder='Email'
         required
       />
       <ValidationError 
@@ -61,10 +62,11 @@ export default function MainContactForm() {
         Name
       </label>
 
-      <input className='w-full bg-[#222226] shadow-inner shadow-black px-3 py-2 rounded-md border border-[#323232]'
+      <input className='w-full bg-[#222226] shadow-inner shadow-black px-3 py-2 rounded-md border border-[#323232] placeholder-[#222226]'
         id="name"
         type="text" 
-        name="name"
+        name="Name"
+        placeholder="Name"
         required
       />
       <ValidationError 
@@ -78,10 +80,11 @@ export default function MainContactForm() {
         Company
       </label>
 
-      <input className='w-full bg-[#222226] shadow-inner shadow-black px-3 py-2 rounded-md border border-[#323232]'
+      <input className='w-full bg-[#222226] shadow-inner shadow-black px-3 py-2 rounded-md border border-[#323232] placeholder-[#222226]'
         id="company"
         type="text" 
-        name="company"
+        name="Company"
+        placeholder="Company"
         optional
       />
       <ValidationError 
@@ -95,9 +98,10 @@ export default function MainContactForm() {
    <label htmlFor="text" className='text-xl font-bold'>
         How can i help you?
       </label>
-      <textarea className='w-full bg-[#222226] shadow-inner shadow-black px-3 py-2 rounded-md border border-[#323232] h-[120px]'
+      <textarea className='w-full bg-[#222226] shadow-inner shadow-black px-3 py-2 rounded-md border border-[#323232] h-[120px] placeholder-[#222226]'
         id="message"
-        name="message"
+        name="Message"
+        placeholder="Message"
       />
 
       <ValidationError 
