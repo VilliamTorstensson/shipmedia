@@ -8,7 +8,7 @@ import { useForm, ValidationError } from '@formspree/react';
 export default function contactHome () {
   const [state, handleSubmit] = useForm("mjvqznqk");
   if (state.succeeded) {
-      return <div className='w-full h-full  max-w-[1340px] mx-auto py-10 flex justify-center items-center flex-col gap-5'>
+      return <div className='w-full h-full rounded-xl  max-w-[1340px] mx-auto py-10 flex justify-center items-center flex-col gap-5 bg-gradient-to-r from-[#090909] to-[#151517]'>
         <Image alt="Me.image" src="/jag.jpeg" className='border-2 rounded-full' width={100} height={100} />
         <h1 className='capitalize font-bold text-2xl'>Thanks for reaching out.</h1>
         <p>I will get back to you as soon as possible</p>
