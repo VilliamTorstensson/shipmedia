@@ -2,15 +2,15 @@ import Image from 'next/image'
 import Link from 'next/link'
 export default function Hero () {
   return (
-    <section className="w-full h-full bg-gradient-to-b from-black via-[#090909] to-black py-20  mt-20">
+    <section className="w-full h-full bg-gradient-to-b from-black via-[#151517] to-black py-20  mt-20">
       <div className="w-full h-full max-w-[1340px] mx-auto flex flex-col gap-5 sm:gap-10 items-center justify-center px-4 sm:px-10">
-        <div className=' bg-sky-700 w-[25px] h-[25px] rounded-full absolute 2xl:left-[600px] left-10 sm:left-20 top-40'>
+        <div className=' bg-sky-500 w-[25px] h-[25px] rounded-full absolute 2xl:left-[600px] left-10 sm:left-20 top-40'>
         </div>
         <div className='bg-sky-300 w-[15px] h-[15px] rounded-full absolute 2xl:right-[550px] right-5 sm:right-20 top-60'>
         </div>
-        <div className='  bg-sky-900 w-[30px] h-[30px] rounded-full absolute 2xl:right-[600px] right-5 sm:right-20 top-[500px]'>
+        <div className='  bg-sky-600 w-[30px] h-[30px] rounded-full absolute 2xl:right-[600px] right-5 sm:right-20 top-[500px]'>
         </div>
-        <div className=' bg-blue-500 w-[10px] h-[10px] rounded-full absolute 2xl:left-[650px] left-20 top-[600px]'>
+        <div className=' bg-sky-600 w-[10px] h-[10px] rounded-full absolute 2xl:left-[650px] left-20 top-[600px]'>
         </div>
         <div className="flex justify-center items-center flex-col mb-0">
           <Image src="/jag.jpeg" width={80} height={80} alt="me" className="z-20 rounded-full border-2" />

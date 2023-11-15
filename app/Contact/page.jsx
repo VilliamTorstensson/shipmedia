@@ -35,7 +35,7 @@ export default function ContactPage() {
             </div>
             <div className='flex gap-2'>
             <h1>Mail:</h1>
-            <a href="mailto:villiamtorstensson@outlook.com"><p className='underline hover:text-blue-500'>Villiamtorstensson@outlook.com</p></a>
+            <a href="mailto:villiam@shipmedia.se"><p className='underline hover:text-blue-500'>Villiam@shipmedia.se</p></a>
             </div>
             <div className='flex gap-2'>
               <h1>Business Name:</h1>

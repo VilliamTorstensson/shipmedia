@@ -118,7 +118,7 @@ export default function contactHome () {
               <a href="Tel:+46722289195"><AiOutlinePhone className='inline-block mr-2'/><p className='text-sm hover:text-blue-500 underline inline-block'>Phone</p></a>
             </div>
             <div className='flex justify-center w-full'>
-              <a href="mailto:villiamtorstensson@outlook.com"><AiOutlineMail className='inline-block mr-2' /><p className='inline-block text-sm underline hover:text-blue-500'>Email</p></a>
+              <a href="mailto:Villiam@shipmedia.se"><AiOutlineMail className='inline-block mr-2' /><p className='inline-block text-sm underline hover:text-blue-500'>Email</p></a>
             </div>
       </div>
         </div>

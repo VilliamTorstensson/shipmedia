@@ -59,7 +59,7 @@ export default function Steps () {
           <div onClick={handleClick2} className='h-fit bg-[#090909] rounded-sm shadow-lg shadow-black w-full p-6 flex gap-6 flex-col justify-between'>
             <div className='flex justify-between w-full items-center'>
              <h1 className='p-2 bg-[#090909] border border-[#323232] rounded-full h-[45px] w-[45px] flex justify-center items-center'>02</h1>
-              <h1 className='p-2 bg-[#090909] border border-[#323232]'>1-2 weeks</h1>
+              <h1 className='p-2 bg-[#090909] border border-[#323232]'>1-7 days</h1>
             </div>
             <div className='flex flex-col gap-3'>
               <p className='uppercase'>Prototype magic</p>
