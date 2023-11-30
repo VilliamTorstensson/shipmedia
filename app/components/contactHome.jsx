@@ -32,8 +32,8 @@ export default function contactHome () {
               <Image alt="Me.image" src="/jag.jpeg" className='border-2 rounded-full' width={100} height={100} />
              
               <div>
-              <h1 className='text-4xl font-extrabold mt-5 text-center capitalize'>Get in touch <br className='flex md:hidden' /> with me</h1>
-              <p className='mt-5 mb-10 sm:w-[70%] mx-auto text-center'>Let's create something great together</p>
+              <h1 className='text-4xl font-extrabold mt-5 text-center capitalize'>Kontakta mig </h1>
+              <p className='mt-5 mb-10 sm:w-[70%] mx-auto text-center'>Gör dina idéer till digitala verkligheter.</p>
               
               </div>
             
@@ -58,7 +58,7 @@ export default function contactHome () {
    <div className='w-full grid lg:grid-cols-2 grid-cols-1 gap-6'>
     <div className='flex flex-col gap-2'>
     <label htmlFor="text" className='font-bold text-xl'>
-        Name
+        Namn
       </label>
 
       <input className='w-full bg-[#222226] shadow-inner shadow-black px-3 py-2 rounded-md border border-[#323232]'
@@ -75,7 +75,7 @@ export default function contactHome () {
     </div>
   <div className='flex flex-col gap-2'>
         <label htmlFor="text" className='font-bold text-xl'>
-        Company
+        Företag
       </label>
 
       <input className='w-full bg-[#222226] shadow-inner shadow-black px-3 py-2 rounded-md border border-[#323232]'
@@ -93,7 +93,7 @@ export default function contactHome () {
    </div>
    <div className='flex flex-col gap-2'>
    <label htmlFor="text" className='text-xl font-bold'>
-        How can i help you?
+        Hur kan jag hjälpa dig?
       </label>
       <textarea className='w-full bg-[#222226] shadow-inner shadow-black px-3 py-2 rounded-md border border-[#323232] h-[120px]'
         id="message"
@@ -108,14 +108,14 @@ export default function contactHome () {
    </div>
       <div className='flex justify-center items-center'>
       <button className='btn5 w-40' type="submit" disabled={state.submitting}>
-        Submit
+        Skicka
       </button>
       </div>
     </form>
       
       <div className='grid grid-cols-2 mt-10 gap-10'>
             <div className='flex justify-center w-full'>
-              <a href="Tel:+46722289195"><AiOutlinePhone className='inline-block mr-2'/><p className='text-sm hover:text-blue-500 underline inline-block'>Phone</p></a>
+              <a href="Tel:+46722289195"><AiOutlinePhone className='inline-block mr-2'/><p className='text-sm hover:text-blue-500 underline inline-block'>Telefon</p></a>
             </div>
             <div className='flex justify-center w-full'>
               <a href="mailto:Villiam@shipmedia.se"><AiOutlineMail className='inline-block mr-2' /><p className='inline-block text-sm underline hover:text-blue-500'>Email</p></a>

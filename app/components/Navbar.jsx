@@ -24,16 +24,16 @@ export default function Navbar() {
           <li className='relative'><Link onClick={closeMenu} href="/"><Image alt="logo" src="/mainlogo.svg" width={50} height={20} /></Link></li>
         </ul>
 
-        <ul className='hidden md:flex justify-center gap-10'>
-          <li><Link className=' text-gray-300 hover:text-white duration-[300ms]' href="/">Home</Link></li>
-          <li><Link className=' text-gray-300 hover:text-white duration-[300ms]' href="/Pricing">Pricing</Link></li>
-          <li><Link className=' text-gray-300 hover:text-white duration-[300ms]' href="/Services">Services</Link></li>
-          <li><Link className=' text-gray-300 hover:text-white duration-[300ms]' href="/Contact">Contact</Link></li>
+        <ul className=' hidden md:flex justify-center gap-10'>
+          <li><Link className=' text-gray-300 hover:text-white duration-[300ms]' href="/">Hem</Link></li>
+          <li><Link className=' text-gray-300 hover:text-white duration-[300ms]' href="/Pricing">Priser</Link></li>
+          <li><Link className=' text-gray-300 hover:text-white duration-[300ms]' href="/Services">Tjänster</Link></li>
+         
+          
         </ul>
 
         <div className='flex'>
-          <Link className='btn2 md:block hidden' href="/Contact">Let's Talk</Link>
-
+          <Link href="/Contact" className='hidden md:flex btn2'>Kontakt</Link>
 
           <div onClick={handleClick}>
             {isOpen ? (
@@ -45,10 +45,10 @@ export default function Navbar() {
             <div className={`z-40 ease-in duration-[200ms] px-10 w-full h-screen  bg-black absolute top-[60px] left-0 flex-col flex ${isOpen ? 'left-0' : 'left-[-100%]'}`}>
                 
               <ul onClick={closeMenu} className='flex flex-col md:hidden justify-start gap-10 mt-10 w-full'>
-                <li className='w-full border-b border-dashed border-gray-900 pb-1text-xl'><Link className='font-semibold text-gray-400 hover:text-white duration-[300ms]' href="/">Home</Link></li>
-                <li className='w-full border-b border-dashed border-gray-900 pb-1text-xl'><Link className='font-semibold text-gray-400 hover:text-white duration-[300ms]' href="/Pricing" >Pricing</Link></li>
-                <li className='w-full border-b border-dashed border-gray-900 pb-1text-xl'><Link className='font-semibold text-gray-400 hover:text-white duration-[300ms]' href="/Services">Services</Link></li>
-                <li className='w-full border-b border-dashed border-gray-900 pb-1text-xl'><Link className='font-semibold text-gray-400 hover:text-white duration-[300ms]' href="/Contact">Contact</Link></li>
+                <li className='w-full border-b border-dashed border-gray-900 pb-1text-xl'><Link className='font-semibold text-gray-400 hover:text-white duration-[300ms]' href="/">Hem</Link></li>
+                <li className='w-full border-b border-dashed border-gray-900 pb-1text-xl'><Link className='font-semibold text-gray-400 hover:text-white duration-[300ms]' href="/Pricing" >Priser</Link></li>
+                <li className='w-full border-b border-dashed border-gray-900 pb-1text-xl'><Link className='font-semibold text-gray-400 hover:text-white duration-[300ms]' href="/Services">Tjänster</Link></li>
+                <li className='w-full border-b border-dashed border-gray-900 pb-1text-xl'><Link className='font-semibold text-gray-400 hover:text-white duration-[300ms]' href="/Contact">kontakt</Link></li>
               </ul>  
             </div>
           </div>

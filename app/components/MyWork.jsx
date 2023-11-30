@@ -1,38 +1,95 @@
-
+"use client"
 import Image from 'next/image'
+import { motion } from 'framer-motion';
+import { useTransform, useScroll } from 'framer-motion';
+import { useEffect, useRef } from 'react';
 
-export default function MyWork() {
+export default function Portfolio () {
+ 
+  const card = [
+    {
+      id: 1,
+      url: "/work1.jpg",
+    },
+    {
+      id: 2,
+      url: "/work2.jpg",
+    },
+    {
+      id: 3,
+      url: "/work3.jpg",
+    },
+    {
+      id: 4,
+      url: "/work4.jpg",
+    },
+    {
+      id: 5,
+      url: "/work5.jpg",
+    },
+    {
+      id: 6,
+      url: "/work6.jpg",
+    },
+    {
+      id: 7,
+      url: "/work7.jpg",
+    },
+    {
+      id: 8,
+      url: "/work1.jpg",
+    },
+    {
+      id: 9,
+      url: "/work2.jpg",
+    },
+    {
+      id: 10,
+      url: "/work3.jpg",
+    },
+    {
+      id: 11,
+      url: "/work4.jpg",
+    },
+    {
+      id: 12,
+      url: "/work5.jpg",
+    },
+  ];
+const container = useRef(null);
+const { scrollYProgress } = useScroll({
+  target: container,
+  offset: ['start end', 'end start'],
+})
+
+const y = useTransform(scrollYProgress, [0, 1], [1, 1000])
+
   return (
-  <section className='flex flex-col justify-center items-center w-full h-full 2xl:max-w-[1340px] 2xl:px-10 mx-auto py-20'>
-   
-    <div className='w-full flex justify-center items-center'>
-      <h1 className='px-4 text-3xl md:text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-b from-white to-gray-400 upper mb-20 text-center'>Latest Work And Projects.</h1>
-    </div>
-   
-   
-    <div className=' grid grid-cols-2 sm:grid-cols-2 sm:gap-5 gap-2 md:grid-cols-3 '>
-   
-      <div className=' w-full h-full md:order-1 order-1'>
-        <Image width={500} height={400} src="/shortcoffee.jpg" alt="coffee" />
+    <main id="work" className="w-full h-full my-auto flex items-center justify-center overflow-y-hidden relative bg-[#2d2d2f] ">
+      
+      <div ref={container} className=' relative grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2 z-0'>
+        {card.map((item) => {
+          return (
+            <div  y={0} key={item.id} className="xl:top-[-45%] lg:top-[-75%] md:top-[-55%] sm:top-[-80%] xs:top-[-40%] top-[-100%] relative min-w-[50px] sm:min-w-[50px] md:min-w-[50] lg:min-w-[50px]  2xl:min-w-[50px]  flex gap-4 w-full">
+              <motion.div style={{y}} >
+              <Image
+               
+              y={y}
+                src={item.url}
+                alt="work"
+                width={500}
+                height={500}
+                layout="responsive"
+                objectFit="cover"
+                className="rounded-md"
+              />
+              </motion.div>
+            
+            </div>
+          );
+        })}
       </div>
-      <div className=' w-full h-full md:order-1 order-2'>
-        <Image width={500} height={400} src="/shortnike.jpg" alt="nike" />
-      </div>
-      <div className=' w-full h-full md:order-1 order-4'>
-        <Image width={500} height={400} src="/shortgreenland.jpg" alt="greenland" />
-      </div>
-      <div className=' w-full h-full md:order-1 order-3'>
-        <Image width={500} height={400} src="/shortwildlife.jpg" alt="wildlife" />
-      </div>
-      <div className=' w-full h-full md:order-1 order-5'>
-        <Image width={500} height={400} src="/shortvr.jpg" alt="vr" />
-      </div>
-      <div className=' w-full h-full md:order-1 order-6'>
-        <Image width={500} height={400} src="/shortsteak.jpg" alt="steak" />
-      </div>
-      </div>
-    
-
-  </section>
+      
+    </main>
   )
 }

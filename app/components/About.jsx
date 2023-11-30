@@ -16,7 +16,8 @@ export default function About() {
        
         <div className='flex flex-col gap-5 justify-center md:items-start items-center h-full'>
           <h1 className='font-bold text-gray-100 text-4xl sm:text-start text-center'>Villiam Torstensson</h1>
-          <p className='text-md text-center md:text-start'>I'm a webdeveloper and graphic designer based in Sweden. I specialize in building cutting-edge websites using React with Next.js as my trusted framework, with my attention for details i create seamless, responsive, and user-friendly web solutions that not only meet but exceed expectations. <span className='text-gray-100'>Let's collaborate and turn your online vision into reality.</span> </p>
+          <p className='text-md text-center md:text-start'>
+Jag är en webbutvecklare och grafisk designer från Sverige. Jag är specialist på att bygga moderna webbplatser med React och Next.js som mitt go-to framework. Med min uppmärksamhet för detaljer skapar jag responsiva och användarvänliga hemsidor som inte bara uppfyller utan överträffar förväntningar. <span className='text-gray-100'>Låt oss samarbeta och förverkliga din onlinevision</span> </p>
          
         </div>
         </div>
@@ -28,12 +29,12 @@ export default function About() {
         <div className='card2 hover:scale-105 duration-500 p-3 grid grid-cols-2 gap-4 '>
           <div className='bg-[#151517]  shadow-md shadow-black rounded-xl p-4 w-full flex flex-col justify-center  '>
             <h1 className='font-bold text-3xl sm:text-4xl'>01</h1>
-            <p className='sm:text-md text-sm'>Years experience</p>
+            <p className='sm:text-md text-sm'>Års erfarenhet</p>
           </div>
 
           <div className='bg-[#151517]  shadow-md shadow-black rounded-xl p-4 w-full flex flex-col justify-center  '>
             <h1 className='font-bold text-3xl sm:text-4xl'>50+</h1>
-            <p className='sm:text-md text-sm'>Projects built</p>
+            <p className='sm:text-md text-sm'>Projekt</p>
           </div>
         </div>
         </Link>
@@ -58,7 +59,7 @@ export default function About() {
         <Link href="/Contact">
         <div className='card2 h-full hover:scale-105 duration-500'>
           <div className='w-full h-full justify-center items-center  rounded-xl flex'>
-            <h1 className='sm:text-4xl text-[1.6rem] text-white font-bold'>let's work < span className='text-blue-500'>together</span> <BsFillArrowRightCircleFill className='ml-2 inline-block' /></h1>
+            <h1 className='md:text-3xl text-[1.6rem] text-white font-bold'>Få kostnadsfri < span className='text-blue-500'>demo</span> <BsFillArrowRightCircleFill className='ml-2 inline-block' /></h1>
           </div>
         </div>
        </Link>

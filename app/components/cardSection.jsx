@@ -13,8 +13,8 @@ export default function CardSection() {
              <Image src="/work.svg" width={700} height={200} alt="svg" />
             </div>
             <div className='p-5 flex flex-col justify-start h-full'>
-            <h1 className='mb-1 text-xl font-bold'>My Services</h1>
-            <p> Web development, crafting user-friendly and visually appealing websites. <span className='hover:underline text-blue-500'>Read More</span></p>
+            <h1 className='mb-1 text-xl font-bold'>Mina Tjänster</h1>
+            <p> Webbutveckling, Jag skapar användarvänliga och visuellt tilltalande hemsidor. <span className='hover:underline text-blue-500'>Läs mer</span></p>
             </div>
            
           </div>
@@ -27,9 +27,9 @@ export default function CardSection() {
              <Image src="/pricing.svg" width={700} height={200} alt="svg" />
             </div>
             <div className='p-5 flex flex-col justify-start h-full'>
-            <h1 className='text-xl font-bold mb-1'>Pricing</h1>
-            <p>I create affordable solutions for any business. See my price list here.
-               <span className='hover:underline text-blue-500'> Read More</span>
+            <h1 className='text-xl font-bold mb-1'>Priser</h1>
+            <p>Mina paket är anpassade för alla typer av företag oavsätt vart du befinner dig i ditt företagende.
+               <span className='hover:underline text-blue-500'> Läs mer</span>
             </p>
             </div>
           </div>
@@ -44,7 +44,7 @@ export default function CardSection() {
             </div>
             <div className='p-5 flex flex-col justify-start h-full'>
             <h1 className='font-bold text-xl mb-1'>Google SEO</h1>
-            <p>I make sure your website is optimezed for google search. <span className='hover:underline text-blue-500'>Read More</span></p>
+            <p>Jag ser till att din hemsida är optimerad för googles sökmotorer. <span className='hover:underline text-blue-500'>Läs mer </span></p>
             </div>
           </div>
         </Link>
